@@ -14,6 +14,10 @@
 		AA5C89681C6AA6D900DE3EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5C89661C6AA6D900DE3EFF /* LaunchScreen.storyboard */; };
 		AA5C89731C6AA6D900DE3EFF /* Carousel_SignupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C89721C6AA6D900DE3EFF /* Carousel_SignupTests.swift */; };
 		AA5C897E1C6AA6D900DE3EFF /* Carousel_SignupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C897D1C6AA6D900DE3EFF /* Carousel_SignupUITests.swift */; };
+		AA5C898E1C6BA21600DE3EFF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C898D1C6BA21600DE3EFF /* Common.swift */; };
+		AA5C89901C6BA3A100DE3EFF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C898F1C6BA3A100DE3EFF /* IntroViewController.swift */; };
+		AA5C89921C6BB4BB00DE3EFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C89911C6BB4BB00DE3EFF /* LoginViewController.swift */; };
+		AA5C89941C6D590300DE3EFF /* tutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C89931C6D590300DE3EFF /* tutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		AA5C89791C6AA6D900DE3EFF /* Carousel SignupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carousel SignupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA5C897D1C6AA6D900DE3EFF /* Carousel_SignupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_SignupUITests.swift; sourceTree = "<group>"; };
 		AA5C897F1C6AA6D900DE3EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5C898D1C6BA21600DE3EFF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		AA5C898F1C6BA3A100DE3EFF /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		AA5C89911C6BB4BB00DE3EFF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AA5C89931C6D590300DE3EFF /* tutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 		AA5C895C1C6AA6D900DE3EFF /* Carousel Signup */ = {
 			isa = PBXGroup;
 			children = (
+				AA5C898D1C6BA21600DE3EFF /* Common.swift */,
 				AA5C895D1C6AA6D900DE3EFF /* AppDelegate.swift */,
 				AA5C895F1C6AA6D900DE3EFF /* ViewController.swift */,
 				AA5C89611C6AA6D900DE3EFF /* Main.storyboard */,
+				AA5C89931C6D590300DE3EFF /* tutorialViewController.swift */,
+				AA5C89911C6BB4BB00DE3EFF /* LoginViewController.swift */,
+				AA5C898F1C6BA3A100DE3EFF /* IntroViewController.swift */,
 				AA5C89641C6AA6D900DE3EFF /* Assets.xcassets */,
 				AA5C89661C6AA6D900DE3EFF /* LaunchScreen.storyboard */,
 				AA5C89691C6AA6D900DE3EFF /* Info.plist */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5C89601C6AA6D900DE3EFF /* ViewController.swift in Sources */,
+				AA5C898E1C6BA21600DE3EFF /* Common.swift in Sources */,
+				AA5C89941C6D590300DE3EFF /* tutorialViewController.swift in Sources */,
 				AA5C895E1C6AA6D900DE3EFF /* AppDelegate.swift in Sources */,
+				AA5C89921C6BB4BB00DE3EFF /* LoginViewController.swift in Sources */,
+				AA5C89901C6BA3A100DE3EFF /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
