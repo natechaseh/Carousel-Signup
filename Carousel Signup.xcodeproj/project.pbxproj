@@ -19,6 +19,7 @@
 		AA5C89921C6BB4BB00DE3EFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C89911C6BB4BB00DE3EFF /* LoginViewController.swift */; };
 		AA5C89941C6D590300DE3EFF /* tutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C89931C6D590300DE3EFF /* tutorialViewController.swift */; };
 		AA90D99C1C6FDEE8005DDB46 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90D99B1C6FDEE8005DDB46 /* TimelineViewController.swift */; };
+		AA90D99E1C6FE290005DDB46 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA90D99D1C6FE290005DDB46 /* ConversationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		AA5C89911C6BB4BB00DE3EFF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AA5C89931C6D590300DE3EFF /* tutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tutorialViewController.swift; sourceTree = "<group>"; };
 		AA90D99B1C6FDEE8005DDB46 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		AA90D99D1C6FE290005DDB46 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				AA5C895D1C6AA6D900DE3EFF /* AppDelegate.swift */,
 				AA5C895F1C6AA6D900DE3EFF /* ViewController.swift */,
 				AA5C89611C6AA6D900DE3EFF /* Main.storyboard */,
+				AA90D99D1C6FE290005DDB46 /* ConversationsViewController.swift */,
 				AA90D99B1C6FDEE8005DDB46 /* TimelineViewController.swift */,
 				AA5C89931C6D590300DE3EFF /* tutorialViewController.swift */,
 				AA5C89911C6BB4BB00DE3EFF /* LoginViewController.swift */,
@@ -277,6 +280,7 @@
 				AA5C89601C6AA6D900DE3EFF /* ViewController.swift in Sources */,
 				AA5C898E1C6BA21600DE3EFF /* Common.swift in Sources */,
 				AA5C89941C6D590300DE3EFF /* tutorialViewController.swift in Sources */,
+				AA90D99E1C6FE290005DDB46 /* ConversationsViewController.swift in Sources */,
 				AA5C895E1C6AA6D900DE3EFF /* AppDelegate.swift in Sources */,
 				AA90D99C1C6FDEE8005DDB46 /* TimelineViewController.swift in Sources */,
 				AA5C89921C6BB4BB00DE3EFF /* LoginViewController.swift in Sources */,
