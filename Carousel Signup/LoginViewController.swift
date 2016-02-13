@@ -60,28 +60,35 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
     
     @IBAction func didPressLogin(sender: AnyObject) {
         
-        self.activityIndicator.startAnimating()
+        activityIndicator.startAnimating()
         
-        delay(2) { () -> () in
+        if emailField.text!.isEmpty || passwordField.text!.isEmpty{
             
-            if self.emailField.text == "nate" || self.passwordField.text == "pass" {
-                
+            let alertController  = UIAlertController(title: "Email Required", message: "Please enter your email address.", preferredStyle: .Alert)
+            
+            let cancelAction = UIAlertAction(title: "OK", style: .Cancel) { (action) in
+            }
+            alertController.addAction(cancelAction)
+            presentViewController(alertController, animated: true){
+            }
+            self.activityIndicator.stopAnimating()
+        }else if emailField.text == "natechaseh" && passwordField.text == "password"{
+            delay(2, closure: { () -> () in
                 self.activityIndicator.stopAnimating()
+                self.performSegueWithIdentifier("signInSegue", sender: nil)
                 
-                self.performSegueWithIdentifier("loginSegue", sender: nil)
-                
-                
-            } else {
-                
-                
+            })
+        }else{
+            delay(2, closure: { () -> () in
                 self.activityIndicator.stopAnimating()
+                let failController  = UIAlertController(title: "Sign In Failed", message: "Incorrect email or password.", preferredStyle: .Alert)
                 
-                let alertController = UIAlertController(title: "Error", message: "Wrong credentials", preferredStyle: .Alert)
-                let cancelAction = UIAlertAction(title: "OK", style: .Cancel, handler: { (UIAlertAction) -> Void in
-                })
-                alertController.addAction(cancelAction)
-                self.presentViewController(alertController, animated: true
-                    , completion: {
+                let cancelAction = UIAlertAction(title: "OK", style: .Cancel) { (action) in
+                }
+                failController.addAction(cancelAction)
+                self.presentViewController(failController, animated: true){
+                }
+                
                 })
             }
             
@@ -101,4 +108,4 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
     
     
 
-}
+
