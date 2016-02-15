@@ -61,6 +61,13 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1136"/>
                     <connections>
+                        <outlet property="image1" destination="YV9-wH-806" id="EJ6-kO-i3v"/>
+                        <outlet property="image2" destination="Mp1-S0-AWY" id="9pr-gR-E7j"/>
+                        <outlet property="image3" destination="GHr-JA-3VA" id="SvL-3k-EH8"/>
+                        <outlet property="image4" destination="hwe-db-MjE" id="Ftt-By-luF"/>
+                        <outlet property="image5" destination="ryT-lw-NY7" id="yuj-Yb-yfE"/>
+                        <outlet property="image6" destination="P06-Na-faq" id="aAl-ad-Aah"/>
+                        <outlet property="introImage" destination="cCR-di-7KB" id="tR3-Ow-x4g"/>
                         <outlet property="introScrollView" destination="vx6-s4-A6j" id="ENf-mO-v7z"/>
                     </connections>
                 </viewController>

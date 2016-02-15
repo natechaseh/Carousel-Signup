@@ -8,15 +8,23 @@
 
 import UIKit
 
-class IntroViewController: UIViewController {
+class IntroViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var introScrollView: UIScrollView!
     
+    @IBOutlet weak var introImage: UIImageView!
+    @IBOutlet weak var image1: UIImageView!
+    @IBOutlet weak var image2: UIImageView!
+    @IBOutlet weak var image3: UIImageView!
+    @IBOutlet weak var image4: UIImageView!
+    @IBOutlet weak var image5: UIImageView!
+    @IBOutlet weak var image6: UIImageView!
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        introScrollView.delegate = self
         introScrollView.contentSize = CGSize(width: 320, height: 1136)
 
         // Do any additional setup after loading the view.
@@ -26,6 +34,12 @@ class IntroViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        // This method is called as the user scrolls
+    }
+
+    
     
 
     /*
