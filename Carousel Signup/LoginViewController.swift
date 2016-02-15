@@ -75,7 +75,7 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
         }else if emailField.text == "natechaseh" && passwordField.text == "password"{
             delay(2, closure: { () -> () in
                 self.activityIndicator.stopAnimating()
-                self.performSegueWithIdentifier("signInSegue", sender: nil)
+                self.performSegueWithIdentifier("loginSegue", sender: nil)
                 
             })
         }else{

@@ -12,14 +12,6 @@ class ConversationsViewController: UIViewController {
 
     
     @IBOutlet weak var backButton: UIButton!
-   
-    @IBAction func backButton(sender: AnyObject) {
-        
-        navigationController?.popToRootViewControllerAnimated(true)
-        
-    }
-        
-        
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +24,12 @@ class ConversationsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func back(sender: AnyObject) {
+        
+        
+        navigationController?.popToRootViewControllerAnimated(true)
+        
+    }
 
     /*
     // MARK: - Navigation

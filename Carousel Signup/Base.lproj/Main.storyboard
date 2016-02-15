@@ -302,8 +302,7 @@
                                 <rect key="frame" x="15" y="25" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="back:" destination="Ggx-ua-MnR" eventType="touchUpInside" id="NkG-yx-6vg"/>
-                                    <action selector="backButton:" destination="Ggx-ua-MnR" eventType="touchUpInside" id="ttQ-h9-qcc"/>
+                                    <action selector="back:" destination="Ggx-ua-MnR" eventType="touchUpInside" id="c25-EP-xuL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -313,7 +312,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
-                        <outlet property="backButton" destination="SKn-Th-dY6" id="HMX-oc-n79"/>
+                        <outlet property="backButton" destination="SKn-Th-dY6" id="gZ0-pP-txM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vff-zg-oe0" userLabel="First Responder" sceneMemberID="firstResponder"/>
